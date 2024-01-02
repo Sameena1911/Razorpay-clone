@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Razorpay clone</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="shortcut icon" type="x-icon" href="./images/favicon.png">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Fira+Sans&family=Gabarito&family=Poppins:wght@300;400&display=swap"
+    rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            clifford: '#da373d',
+          }
+        }
+      }
+    }
+  </script>
+</head>
+<style>
+  body {
+    font-family: 'Fira Sans', sans-serif;
+
+  }
+  .front--page{
+    background-color: #04032D;
+    width: 100%;
+  }
+  .section2__sidetopics{
+    background-color: #04032D;
+  }
+</style>
+
+<body>
+  <section class="front--page h-dvh">
+    <h1 class="to-blue-950">.</h1>
+    <div class="section1__header flex  justify-between md:mx-56 mt-3  text-indigo-50 items-center">
+      <div class="header--left flex items-center "><img src="./images/favicon.png" class="w-10 " > <h1 class="italic font-black text-3xl">Razorpay</h1></div>
+      <div class="header--middle">
+        <ul class="gap-8 hidden md:flex sm:hidden">
+          <li>Payment</li>
+          <li>Banking</li>
+          <li>Credits</li>
+          <li>Payroll</li>
+          <li>Resources</li>
+          <li>Support</li>
+          <li>Pricing</li>
+        </ul>
+
+      </div>
+      <div class="header--right flex gap-9">
+        <button class="border-2 p-2 w-20 border-blue-700">Log in</button>
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 mt-2 m-2 md:hidden">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 5.25h16.5m-16.5 4.5h16.5m-16.5 4.5h16.5m-16.5 4.5h16.5" />
+        </svg>
+        
+        <button class="text-blue-700 bg-white rounded-md p-2 w-20 hidden sm:hidden md:flex ">Sign up</button>
+      </div>
+    </div>
+    <div class="section2__sidetopics text-indigo-50 md:mx-40 mt-10 flex  gap-48 p-10">
+      <div class="content flex-col z-10 ">
+        <div class="sidetopics1 w-60 p-9">
+          <h1 class="font-black text-4xl text-wrap border-b-2 w-96 border-green-400">Power your Finance,<br>
+            Grow your Business.
+          </h1>
+        </div>
+        <div class="sidetopics2 w-96 p-9">
+          <p class="text-gray-400 ">Accept payments from customers. Automate payouts to vendors & employees. Never run
+            out of working capital.</p>
+        </div>
+        <div class="sidetopics3 p-9">
+          <button class="border-2 rounded-md p-2 bg-sky-500 border-transparent flex gap-2">Sign up for Free <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
+          </svg>
+          </button>
+        </div>
+        <div class="mobile__image">
+          <img src="./images/1.jpg" class="-mt-5 md:hidden sm:flex">
+        </div>
+      </div>
+      <div class="image z-0 ">
+        <img src="./images/1.jpg" class=" md:flex w-4/5 h-4/5 sm:hidden">
+      </div>
+    </div>
+
+  </section>
+</body>
+
+</html>
